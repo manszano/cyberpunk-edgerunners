@@ -1,5 +1,31 @@
 *, *::after, *::before {
+  display: inline-block;
   margin: 0;
   padding: 0;
-  display: inline-block;
+}
+
+@font-face {
+  font-family: "helvetica";
+  src: url("../fonts/helvetica-bold-webfont.woff2") format("woff2"), url("../fonts/helvetica-bold-webfont.woff") format("woff");
+  font-family: "blender";
+  src: url("../fonts/blender-pro-bold-webfont.woff2") format("woff2") url("../fonts/blender-pro-bold-webfont.woff") format("woff");
+}
+body {
+  background: linear-gradient(90.19deg, #033C58 7.08%, #071B24 79.04%);
+}
+
+h1, h2 {
+  font-family: "helvetica", sans-serif;
+}
+
+h3 {
+  font-family: "blender", sans-serif;
+}
+
+.left-menu-itens li {
+  font-family: "blender", sans-serif;
+}
+
+.text1 li {
+  font-family: "helvetica", sans-serif;
 }/*# sourceMappingURL=style.css.map */
